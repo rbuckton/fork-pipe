@@ -1,0 +1,36 @@
+{
+  "name": "fork-pipe",
+  "version": "1.0.0",
+  "description": "Inline fork/join stream processing for gulp.",
+  "keywords": [
+    "gulp",
+    "fork",
+    "join",
+    "pipe",
+    "stream"
+  ],
+  "author": "Ron Buckton <rbuckton@chronicles.org>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/rbuckton/fork-pipe/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbuckton/fork-pipe.git"
+  },
+  "homepage": "https://github.com/rbuckton/fork-pipe#readme",
+  "main": "out/lib/index.js",
+  "typings": "out/lib/index.d.ts",
+  "dependencies": {
+    "merge2": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/merge2": "0.0.22-alpha",
+    "@types/node": "^4.0.22-alpha",
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typescript": "^2.13.6",
+    "typescript": "^1.9.0-dev.20160625-1.0"
+  }
+}
