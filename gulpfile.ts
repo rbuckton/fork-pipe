@@ -1,13 +1,12 @@
-const gulp = require("gulp");
-const path = require("path");
-const del = require("del");
-const sourcemaps = require("gulp-sourcemaps");
-const ts = require("gulp-typescript");
-const typescript = require("typescript");
-const merge = require("merge2");
-const fork = () => require(".")(); // delay load fork
+import gulp = require("gulp");
+import path = require("path");
+import del = require("del");
+import sourcemaps = require("gulp-sourcemaps");
+import ts = require("gulp-typescript");
+import merge = require("merge2");
 
-const lib = ts.createProject("./src/lib/tsconfig.json", { typescript });
+const fork = () => require(".")(); // delay load fork
+const lib = ts.createProject("./src/lib/tsconfig.json", { typescript: require("typescript") });
 
 gulp.task("clean", cb => del("out", cb));
 

@@ -25,12 +25,17 @@
     "merge2": "^1.0.2"
   },
   "devDependencies": {
+    "@types/del": "^2.2.23-alpha",
+    "@types/gulp": "^3.8.22-alpha",
+    "@types/gulp-sourcemaps": "0.0.22-alpha",
+    "@types/gulp-typescript": "0.0.22-alpha",
     "@types/merge2": "0.0.22-alpha",
     "@types/node": "^4.0.22-alpha",
     "del": "^2.2.1",
     "gulp": "^3.9.1",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-typescript": "^2.13.6",
+    "ts-node": "^0.9.3",
     "typescript": "^1.9.0-dev.20160625-1.0"
   }
 }
